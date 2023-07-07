@@ -11,7 +11,7 @@ Junior - 'welcome dude'
 
 let position = prompt ("What is your position?")
 while (position !=='devOps' && position !=='Senior' && position !=='Middle' && position !=='Junior') {
-    position = prompt ('Write you position againe')
+    position = prompt ('Write your position againe')
 }
 if (position === 'devOps') {
     alert ('welcome master file builder')
